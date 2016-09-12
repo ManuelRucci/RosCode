@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="ex_service" type="client.py" name = "client_node" output="screen">
+    </node>
+</launch>

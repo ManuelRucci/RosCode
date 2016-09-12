@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find action_ex)/launch/teleop_twist_keyboard.launch"/>  <!-- launch drone -->
+    <include file="$(find ardrone_as)/launch/action_server.launch"/>           <!-- launch service -->  
+    <include file="$(find action_ex)/launch/service_fib.launch"/>    
+    <include file="$(find action_ex)/launch/client_drone.launch"/>           <!---launch clinet -->
+</launch>

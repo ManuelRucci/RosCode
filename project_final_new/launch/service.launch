@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="project_final_new" type="service.py" name = "service_node" output="screen">
+    </node>
+</launch>

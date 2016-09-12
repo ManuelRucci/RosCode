@@ -1,0 +1,10 @@
+#goal for the drone                      
+string UP  
+string DOWN
+---                                      
+#result                                  
+string SUCCES
+---                                      
+#feedback                                
+string going_up
+string going_down

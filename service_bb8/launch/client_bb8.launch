@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="service_bb8" type="client_bb8.py" name = "client_bb8_node" output="screen">
+    </node>
+</launch>

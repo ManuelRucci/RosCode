@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="project_final_new" type="client.py" name = "client_node" output="screen">
+    </node>
+</launch>
+

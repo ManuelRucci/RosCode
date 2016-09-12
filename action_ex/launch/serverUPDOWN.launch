@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="action_ex" type="serverUPDOWN.py" name = "serverUPDOWN_node" output="screen">
+    </node>
+</launch>

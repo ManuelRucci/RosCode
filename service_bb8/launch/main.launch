@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find service_bb8)/launch/client_bb8.launch"/>
+    <include file="$(find service_bb8)/launch/service_bb8.launch"/>
+</launch>

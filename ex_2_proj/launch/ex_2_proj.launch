@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="ex_2_proj" type="ex_2_proj.py" name = "ex_2_proj_node" output="screen">
+    </node>
+</launch>

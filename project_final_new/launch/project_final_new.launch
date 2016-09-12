@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find project_final_new)/launch/client.launch"/>
+    <include file="$(find project_final_new)/launch/service.launch"/>
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="ex_3_graph" type="ex_3_graph_Publisher.py" name = "ex_3_graph_Publisher_node" output="screen">
+    </node> 
+    <node pkg="ex_3_graph" type="ex_3_graph_Subscriber.py" name = "ex_3_graph_Subscriber_node" output="screen">
+    </node>
+    <!-- comment -->
+</launch>
