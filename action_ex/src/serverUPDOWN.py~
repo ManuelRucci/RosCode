@@ -10,7 +10,7 @@ from geometry_msgs.msg import Twist
 class UP_DOWNClass(object):
     
   # create messages that are used to publish feedback/result
-    _feedback = UP_DOWNFeedback() #klskds
+    _feedback = UP_DOWNFeedback()
     _result   = UP_DOWNResult()
     
     def __init__(self):
